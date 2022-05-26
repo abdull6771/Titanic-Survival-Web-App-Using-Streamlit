@@ -8,7 +8,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
-file= open("C:/Users/USER/Desktop/TitanicPrediction/trained_modek.sav","rb")
+file= open("C:/Users/USER/Desktop/My Github REPO/TitanicPrediction/trained_model.sav","rb")
 loaded_model = pickle.load(file)
 #file.close()
 html_temp1 = """
